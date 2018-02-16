@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <topHeader class='topHeader'></topHeader>
-    <br/>
+
     <introduction class='introduction'></introduction>
     <br/>
     <bottomFooter class='bottomFooter'></bottomFooter>
@@ -26,25 +26,17 @@ export default {
 
 body{
  font: 30px sans-serif;
+ color: #119da3;
 }
 
 .topHeader , .bottomFooter {
-  height: 250px;
-  background-color:blue;
+  height: 200px;
+  background-color: #F6F6F6;
 }
 
 .introduction {
   height: 850px;
   width: 1200px;
-  margin: 50px 50px;
 }
-
-
-
-.title{
-  font-size: 15px;
-}
-
-
 
 </style>

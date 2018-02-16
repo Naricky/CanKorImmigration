@@ -1,7 +1,11 @@
+
 <template>
   <div>
-    <img class='flag' src='../assets/flag.png'></img>
-    <div class='title'> Welcome to CanCor Immigration</div>
+    <div class='headerAssets'>
+      <img class='flag' src='../assets/flag.jpg'></img>
+      <div class='title'> Welcome to CanCor Immigration</div>
+    </div>
+
   </div>
 </template>
 
@@ -19,16 +23,24 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.title {
+.headerAssets {
+  width: auto;
+}
 
+.title {
   text-align: center;
-  display:inline-block;
+  font-size: 45px;
+  color: blue;
+  margin-bottom: -25px;
+  width: auto;
+  display:block;
 }
 
 .flag {
-  height: 80%;
+  height: 85px;
   margin: 5px auto;
-  display:inline-block;
+  padding: 15px;
+  display:block;
 }
 
 </style>
